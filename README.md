@@ -5,6 +5,7 @@ This little project is made to avoid boilerplate code. Use it as you like.
 ## Current features
 
 - Babel to transform your magnificent ES6 (env preset) clean code into an ES5 mess.
+- You can use `async/await` syntax in this project, the `babel polyfill` covers you.
 - SCSS minifier to bundle together all your style files.
 - dotenv will allow you to use a nice `.env` file to avoid your environment variables to be published on the web.
 
