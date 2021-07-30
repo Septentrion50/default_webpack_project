@@ -5,7 +5,9 @@ const Dotenv = require('dotenv-webpack');
 // project main config.
 module.exports = {
 
-    entry: './src/js/index.js',
+    entry: ['@babel/polyfill',
+            './src/js/index.js'],
+
     watch: true,
 
     output: {
